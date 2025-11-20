@@ -1,0 +1,12 @@
+/* Just a couple simple transitions */
+
+.fade-in {
+  opacity: 0;
+  animation: fade-in 1s ease-out forwards;
+}
+
+@keyframes fade-in {
+  to {
+    opacity: 1;
+  }
+}
